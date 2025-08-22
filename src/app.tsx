@@ -61,7 +61,7 @@ export function App() {
   };
 
   return (
-    <main class="h-screen w-full bg-slate-50 font-sans flex flex-col">
+    <main class="h-full md:h-screen w-full bg-slate-50 font-sans flex flex-col">
       {/* Header com título e botão de ajuda */}
       <header class="bg-white border-b border-slate-200 px-8 py-4 flex justify-between items-center">
         <h1 class="text-2xl font-bold text-slate-800">Onoper Playground</h1>
@@ -122,18 +122,18 @@ export function App() {
         </div>
       )}
 
-      <div class="grid grid-cols-2 lg:grid-cols-5 gap-8 w-full max-w-7xl mx-auto flex-grow p-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 w-full max-w-7xl mx-auto flex-grow p-8">
         
         <section class="flex flex-col h-full lg:col-span-2">
           <h2 class="text-lg font-semibold text-slate-700 mb-3">Editor</h2>
-          <div class="py-8 pr-12 pl-0 flex-grow bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
+          <div class="min-h-[300px] py-8 pr-12 pl-0 flex-grow bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden">
             <div ref={editorRef} class="w-full h-full" />
           </div>
         </section>
 
         <section class="flex flex-col h-full lg:col-span-3">
           <h2 class="text-lg font-semibold text-slate-700 mb-3">Preview</h2>
-          <div class="flex-grow p-4 bg-slate-100 rounded-xl shadow-inner border border-slate-200 relative overflow-hidden">
+          <div class="min-h-[500px] flex-grow p-4 bg-slate-100 rounded-xl shadow-inner border border-slate-200 relative overflow-hidden">
             <div
               class="absolute w-full h-full left-0 top-0 p-4 bg-white rounded-xl shadow-md border border-slate-200 overflow-auto"
               dangerouslySetInnerHTML={{ __html: outputValue || "<p class='text-slate-400'>Digite algo no editor para ver o resultado</p>" }}
