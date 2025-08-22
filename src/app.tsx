@@ -5,7 +5,7 @@ import * as monaco from 'monaco-editor';
 const METACHARACTERS = [
   { symbol: "-", description: "Define um item da lista (opcional)" },
   { symbol: "!", description: "Define um problema, deve ser filho de um item" },
-  { symbol: ">", description: "Define um link para o item com o ID especificado" },
+  { symbol: ">", description: "Define um link para o item com o ID especificado, deve ser filho de um item" },
   { symbol: "#", description: "Define um comentário e deve ser filho de um item" },
 ];
 
@@ -84,7 +84,7 @@ export function App() {
                 <h2 class="text-xl font-bold text-slate-800">Metacaracteres do Onoper</h2>
                 <button 
                   onClick={() => setShowHelp(false)}
-                  class="text-slate-500 hover:text-slate-700"
+                  class="text-slate-500 hover:text-slate-700 cursor-pointer"
                 >
                   ✕
                 </button>
@@ -102,6 +102,11 @@ export function App() {
               </div>
               
               <div class="mt-8 pt-4 border-t border-slate-200">
+                <p class="text-slate-600 mb-4">
+                  A ideia é que você transforme listas de itens em uma estrutura hierárquica, onde cada item pode ter problemas associados e comentários explicativos.
+                  <br />
+                  - Eu pessoalmente pensei nela para organizar tarefas, processos e pensamentos de forma mais estruturada, mas você pode usar como quiser.
+                </p>
                 <h3 class="font-medium text-slate-800 mb-2">Exemplo:</h3>
                 <pre class="bg-slate-100 p-3 rounded text-sm overflow-auto">
                 {(
