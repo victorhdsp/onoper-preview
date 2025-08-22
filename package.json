@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
+    "monaco-editor": "^0.52.2",
     "onoper-core": "^1.0.3",
     "preact": "^10.27.1"
   },
