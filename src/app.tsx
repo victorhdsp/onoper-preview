@@ -113,7 +113,11 @@ export function App() {
                   "- Item 1\n" +
                   "  ! Problema 1\n" +
                   "  ! Problema 2\n" +
-                  "  # Este é um comentário explicativo\n"
+                  "  # Este é um comentário explicativo\n" + 
+                  "- [id1] Item 2\n" +
+                  "  ! Problema 3\n" +
+                  "- Item 3\n" +
+                  "  > id1\n"
                 )}
                 </pre>
               </div>
