@@ -77,12 +77,12 @@ export function App() {
         <h1 class="text-2xl font-bold text-slate-800">Onoper Playground</h1>
         <button 
           onClick={() => setShowHelp(!showHelp)}
-          class="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 flex items-center"
+          class="px-4 py-2 bg-slate-700 text-gray-100 rounded-lg hover:bg-blue-500 flex items-center font-bold shadow cursor-pointer"
         >
           <span class="mr-2">
             📚
           </span>
-          Tutorial
+          Ver Tutorial
         </button>
       </header>
 
