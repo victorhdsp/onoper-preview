@@ -32,7 +32,17 @@ export function App() {
         tabSize: 2,
         insertSpaces: true,
         autoIndent: 'full',
-        minimap: { enabled: false }
+        minimap: { enabled: false },
+        placeholder: (
+          "- Item 1\n" +
+          "  ! Problema 1\n" +
+          "  ! Problema 2\n" +
+          "  # Este é um comentário explicativo\n" + 
+          "- [id1] Item 2\n" +
+          "  ! Problema 3\n" +
+          "- Item 3\n" +
+          "  > id1\n"
+        )
       });
 
       // Evento de mudança no editor
