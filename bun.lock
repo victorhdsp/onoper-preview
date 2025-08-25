@@ -327,7 +327,7 @@
 
     "nth-check": ["nth-check@2.1.1", "", { "dependencies": { "boolbase": "^1.0.0" } }, "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w=="],
 
-    "onoper-core": ["onoper-core@1.0.4", "", { "dependencies": { "node-html-parser": "^7.0.1", "uuid": "^11.1.0" }, "peerDependencies": { "typescript": "^5.9.2" } }, "sha512-ihnQpqEBAYQpbEKdlFCuxGxOKaQYhZwTYZ37AZwO/M4p61aWgzOy+O0YzSaVdKcfDgJbZYPyb2laP5rESOZ5dw=="],
+    "onoper-core": ["onoper-core@1.0.5", "", { "dependencies": { "node-html-parser": "^7.0.1", "uuid": "^11.1.0" }, "peerDependencies": { "typescript": "^5.9.2" } }, "sha512-B4MRQZlSulsCZn5Cs7KzjYPSrGUQFiioZVJ2FDbOqo6MZwqYE2UdP6VOShthex/KehDTwOb9A5fwGlJzpoCSqg=="],
 
     "picocolors": ["picocolors@1.1.1", "", {}, "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="],
 
